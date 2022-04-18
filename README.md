@@ -58,3 +58,7 @@ Could not connect: Error 99 connecting to localhost:6379. Cannot assign requeste
 * на hset 0,27 мс, на hget 0,17 мс
 * на rpush 0,22 мс, на lindex 0,18 мс
 * на zadd 0,18 мс, zrange 0,11 мс
+
+Далее настроил кластер на 6 нод, как описано в этой статье https://www.dltlabs.com/blog/how-to-setup-configure-a-redis-cluster-easily-573120
+
+timeout-ы проставил в redis.conf файлах https://redis.io/docs/manual/scaling/
